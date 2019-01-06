@@ -121,7 +121,7 @@ notice.onmouseout = function () {
 var smallBox = document.getElementById('smallBox');
 var li = smallBox.children;
 var hidden = document.getElementById('hidden');
-for( var i=0; i < part.length; i++ ){
+for( var i=0; i < li.length; i++ ){
 	(function(i){
 		li[i].onmouseover = function(){
 			// this.style.marginRight = '0';
@@ -131,7 +131,7 @@ for( var i=0; i < part.length; i++ ){
 			hidden.style.display = 'block';
 	})(i);
 }
-for( var i=0; i < part.length; i++ ){
+for( var i=0; i < li.length; i++ ){
 	(function(i){
 		li[i].onmouseout = function(){
 			animate(this,{right:-85});

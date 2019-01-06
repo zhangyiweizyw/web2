@@ -4,6 +4,66 @@
 		<meta charset="UTF-8">
 		<title>帮5买</title>
 		<link rel="stylesheet" href="index.css">
+		<style>
+			.smallBox{
+				width: 130px;
+				height: 680px;
+				float:right;
+				overflow: hidden;
+				position: relative;
+			}
+			.smallBox li{
+				position: absolute;
+				display: inline-block;
+				right:-85px;
+			}
+			#first{
+				width: 130px;
+				height: 60px;
+				top:105px;
+			}
+			.consult{
+				top:165px;
+			}
+			.consult img{
+				width: 130px;
+
+			}
+			#third{
+				top:215px;
+				background-color: #ff9260;
+				width: 130px;
+			}
+
+			#fourth{
+				top:360px;
+			}
+			#fourth img{
+				width: 130px;
+				
+			}
+			#fifth{
+				top:410px;
+				height: 100px;
+				width: 130px;
+				background-color:#ff9260;
+			}
+			#fifth img:first-child{
+				margin-top:30px;
+				right:95px;
+				position: absolute;
+
+			}
+			#fifth img:last-child{
+				display: none;
+			}
+			#last{
+				top:515px;
+			}
+			#last img{
+				width: 130px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="outter">
@@ -487,24 +547,24 @@
 		</div>		
 			<ul class="smallBox" id="smallBox">
 				<li id="first">
-					<img src="img/consult-s.png" alt="" class="part">
+					<img src="img/consult-s.png" alt="">
 				</li>
 				<li class="consult" id="consult">
-					<img src="img/xiaobang.png" alt="" class="part">
+					<img src="img/xiaobang.png" alt="">
 				</li>
 				<li class="third" id="third"
 				>
-					<img src="img/youhui.png" alt="" class="part">
+					<img src="img/youhui.png" alt="">
 				</li>
 				<li class="fourth" id="fourth">
-					<img src="img/app.png" alt="" class="part">				
+					<img src="img/app.png" alt="">				
 				</li>
 				<li id="fifth">
-					<img src="img/serwei.png" alt="" class="part">
+					<img src="img/serwei.png" alt="">
 					<img src="img/erwei.png" alt="" class="hidden" id="hidden">
 				</li>			
 				<li id="last">
-					<img src="img/cart.png" alt="" class="part">
+					<img src="img/cart.png" alt="">
 				</li>
 			</ul>
 		</div>

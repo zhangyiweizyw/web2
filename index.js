@@ -120,20 +120,21 @@ notice.onmouseout = function () {
 //右侧图标
 var smallBox = document.getElementById('smallBox');
 var li = smallBox.children;
-var part = document.getElementsByClassName('part');
-// var part = document.getElementsByClassName('part');
+var hidden = document.getElementById('hidden');
 for( var i=0; i < part.length; i++ ){
 	(function(i){
-		part[i].onmouseover = function(){
+		li[i].onmouseover = function(){
 			// this.style.marginRight = '0';
-			animate(this,{right:60});
+			animate(this,{right:0});
 		}
+		if(i == 4)
+			hidden.style.display = 'block';
 	})(i);
 }
 for( var i=0; i < part.length; i++ ){
 	(function(i){
-		part[i].onmouseout = function(){
-			animate(this,{right:0});
+		li[i].onmouseout = function(){
+			animate(this,{right:-85});
 		}
 	})(i);
 }

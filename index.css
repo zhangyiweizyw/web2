@@ -374,58 +374,11 @@ a{
 	margin:0 210px;
 	float: left;
 }
-.smallBox{
-	height: 550px;
-	right:0;
-	position: absolute;
-	top:105px;
-	width: 130px;
-	overflow: hidden;
-	/*margin-right: -85px;*/
-}
-.smallBox li{
-	width: 130px;
-	/*top:10px;*/
-	/*margin-right:-85px;*/
-}
-.smallBox li:first-child{
-	height: 60px;
-}
-.part{
-	display: inline-block;
-	position: absolute;
-}
-.consult{
-	/*margin: -4px 2px 4px 0;*/
-	height: 45px;
-	right: -85px;
-}
-
-.third{
-	height: 140px;
-	width: 130px;
-	margin-bottom: 3px;
-	/*width: 45px;*/
-}
-#fourth{
-	height: 40px;
-}
-#fifth{
-	background-color: #ff9260;
-	height: 100px;	
-	margin-top:-5px;
-	line-height: 100px;
-	text-align: center;
-}
-#fifth img:first-child{
-	width: 24px;
-	height: 24px;
-	/*margin-right:100px;*/
-	right:10px;
-	margin-top:50px;
+body{
+	position: relative;
 }
 .hidden{
-	display: none;
+	/*display: none;*/
 	width: 90px;
 	height: 90px;
 	position:absolute;

@@ -113,7 +113,7 @@ p0.onmouseout = function () {
 p0.onmousemove = function (e) {
 	var e = e || window.event;
 	var left = e.clientX - 89 - smallSlider.offsetWidth/2;  //画图找到要求的位置,鼠标当前距离浏览器的距离-box距离浏览器的距离-放大镜的一半，从左上角入手
-	var top = e.clientY - 130- smallSlider.offsetHeight/2;
+	var top = e.clientY - 100- smallSlider.offsetHeight/2;
 	var maxLeft = p0.offsetWidth - smallSlider.offsetWidth;
  	var maxTop = p0.offsetHeight - smallSlider.offsetHeight;
 	left = left > maxLeft?maxLeft:left<0?0:left;  //如果left超出右边界则返回max以保证max <= max ,max >=0
